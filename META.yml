@@ -1,0 +1,10 @@
+# http://module-build.sourceforge.net/META-spec.html
+#
+name:         Business-Tax-VAT-Validation-DE
+version:      0.1
+version_from: DE.pm
+installdirs:  site
+requires:
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.16
