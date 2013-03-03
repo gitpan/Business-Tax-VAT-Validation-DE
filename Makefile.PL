@@ -7,6 +7,6 @@ WriteMakefile(
     'PREREQ_PM'		=> {XML::Simple => 2.18,Business::Tax::VAT::Validation => 0.20,LWP::Simple => 0.01},
     ($] >= 5.005 ? (
       ABSTRACT_FROM => 'DE.pm', 
-      AUTHOR     => 'Stefan Gipper <stefanos@cpan.org>',
+      AUTHOR     => '-',
     ) : ()),
 );

@@ -4,7 +4,7 @@ use warnings;
 use Exporter;
 our @ISA = qw/Exporter/;
 our @EXPORT = qw/bffcheck/;
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 use Business::Tax::VAT::Validation;
 #use Algorithm::CheckDigits;
 use LWP::Simple qw ($ua head get);
@@ -106,12 +106,9 @@ Business::Tax::VAT::Validation::DE de vat check
 
 =head1 AUTHOR
 
-    Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+    -
 
 =head1 COPYRIGHT
-
-	Business::Tax::VAT::Validation::DE is Copyright (c) 2010 Stefan Gipper
-	All rights reserved.
 
 	This program is free software; you can redistribute
 	it and/or modify it under the same terms as Perl itself.
